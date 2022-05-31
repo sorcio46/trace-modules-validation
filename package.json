@@ -1,0 +1,22 @@
+{
+  "name": "trace-modules-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --ignore ./output/",
+    "start": "sleep 5s && forever --minUptime 1000 --spinSleepTime 10000 app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.15",
+    "moment": "^2.29.2",
+    "xml2js": "^0.4.23"
+  }
+}
